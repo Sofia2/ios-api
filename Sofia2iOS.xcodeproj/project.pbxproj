@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A5813091A1F45020006AE2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5813081A1F45020006AE2C /* Foundation.framework */; };
+		3A58130E1A1F45020006AE2C /* Sofia2iOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A58130D1A1F45020006AE2C /* Sofia2iOS.h */; };
+		3A5813101A1F45020006AE2C /* Sofia2iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A58130F1A1F45020006AE2C /* Sofia2iOS.m */; };
+		3A5813171A1F45020006AE2C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5813161A1F45020006AE2C /* XCTest.framework */; };
+		3A5813181A1F45020006AE2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5813081A1F45020006AE2C /* Foundation.framework */; };
+		3A58131D1A1F45020006AE2C /* libSofia2iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5813051A1F45020006AE2C /* libSofia2iOS.a */; };
+		3A5813231A1F45020006AE2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A5813211A1F45020006AE2C /* InfoPlist.strings */; };
+		3A5813251A1F45020006AE2C /* Sofia2iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5813241A1F45020006AE2C /* Sofia2iOSTests.m */; };
+		3A58132F1A1F454C0006AE2C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A58132E1A1F454C0006AE2C /* Security.framework */; };
+		3A5813311A1F45540006AE2C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5813301A1F45540006AE2C /* CFNetwork.framework */; };
+		3A5813331A1F45620006AE2C /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5813321A1F45620006AE2C /* libicucore.dylib */; };
+		3A5813391A1F49610006AE2C /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5813381A1F49610006AE2C /* SRWebSocket.m */; };
+		3A58133F1A1F49AC0006AE2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5813081A1F45020006AE2C /* Foundation.framework */; };
+		3A5813411A1F49AC0006AE2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5813401A1F49AC0006AE2C /* CoreGraphics.framework */; };
+		3A5813431A1F49AC0006AE2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5813421A1F49AC0006AE2C /* UIKit.framework */; };
+		3A5813491A1F49AC0006AE2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A5813471A1F49AC0006AE2C /* InfoPlist.strings */; };
+		3A58134B1A1F49AC0006AE2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A58134A1A1F49AC0006AE2C /* main.m */; };
+		3A58134F1A1F49AC0006AE2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A58134E1A1F49AC0006AE2C /* AppDelegate.m */; };
+		3A5813521A1F49AC0006AE2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5813501A1F49AC0006AE2C /* Main.storyboard */; };
+		3A5813551A1F49AC0006AE2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5813541A1F49AC0006AE2C /* ViewController.m */; };
+		3A5813571A1F49AC0006AE2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5813561A1F49AC0006AE2C /* Images.xcassets */; };
+		3A58135D1A1F49AC0006AE2C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5813161A1F45020006AE2C /* XCTest.framework */; };
+		3A58135E1A1F49AC0006AE2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5813081A1F45020006AE2C /* Foundation.framework */; };
+		3A58135F1A1F49AC0006AE2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5813421A1F49AC0006AE2C /* UIKit.framework */; };
+		3A5813671A1F49AC0006AE2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A5813651A1F49AC0006AE2C /* InfoPlist.strings */; };
+		3A5813691A1F49AC0006AE2C /* Sofia2iOSExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5813681A1F49AC0006AE2C /* Sofia2iOSExampleTests.m */; };
+		3A5813721A1F86920006AE2C /* SSAPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5813711A1F86920006AE2C /* SSAPMessage.m */; };
+		3ADF3EEF1A2352130061DD6E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5813321A1F45620006AE2C /* libicucore.dylib */; };
+		3ADF3EF01A23521D0061DD6E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5813301A1F45540006AE2C /* CFNetwork.framework */; };
+		3ADF3EF11A2352250061DD6E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A58132E1A1F454C0006AE2C /* Security.framework */; };
+		3ADF3EF31A2352770061DD6E /* Sofia2iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A58130F1A1F45020006AE2C /* Sofia2iOS.m */; };
+		3ADF3EF41A2352770061DD6E /* SSAPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5813711A1F86920006AE2C /* SSAPMessage.m */; };
+		3ADF3EF51A2352A20061DD6E /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5813381A1F49610006AE2C /* SRWebSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A58131B1A1F45020006AE2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A5812FD1A1F45020006AE2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A5813041A1F45020006AE2C;
+			remoteInfo = Sofia2iOS;
+		};
+		3A5813601A1F49AC0006AE2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A5812FD1A1F45020006AE2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A58133D1A1F49AC0006AE2C;
+			remoteInfo = Sofia2iOSExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A5813031A1F45020006AE2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3A58130E1A1F45020006AE2C /* Sofia2iOS.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A5813051A1F45020006AE2C /* libSofia2iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSofia2iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5813081A1F45020006AE2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A58130C1A1F45020006AE2C /* Sofia2iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sofia2iOS-Prefix.pch"; sourceTree = "<group>"; };
+		3A58130D1A1F45020006AE2C /* Sofia2iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sofia2iOS.h; sourceTree = "<group>"; };
+		3A58130F1A1F45020006AE2C /* Sofia2iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sofia2iOS.m; sourceTree = "<group>"; };
+		3A5813151A1F45020006AE2C /* Sofia2iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sofia2iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5813161A1F45020006AE2C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3A5813201A1F45020006AE2C /* Sofia2iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sofia2iOSTests-Info.plist"; sourceTree = "<group>"; };
+		3A5813221A1F45020006AE2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A5813241A1F45020006AE2C /* Sofia2iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sofia2iOSTests.m; sourceTree = "<group>"; };
+		3A58132E1A1F454C0006AE2C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3A5813301A1F45540006AE2C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3A5813321A1F45620006AE2C /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		3A5813361A1F49500006AE2C /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		3A5813371A1F49610006AE2C /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		3A5813381A1F49610006AE2C /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		3A58133E1A1F49AC0006AE2C /* Sofia2iOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sofia2iOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5813401A1F49AC0006AE2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A5813421A1F49AC0006AE2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A5813461A1F49AC0006AE2C /* Sofia2iOSExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sofia2iOSExample-Info.plist"; sourceTree = "<group>"; };
+		3A5813481A1F49AC0006AE2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A58134A1A1F49AC0006AE2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A58134C1A1F49AC0006AE2C /* Sofia2iOSExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sofia2iOSExample-Prefix.pch"; sourceTree = "<group>"; };
+		3A58134D1A1F49AC0006AE2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A58134E1A1F49AC0006AE2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A5813511A1F49AC0006AE2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A5813531A1F49AC0006AE2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A5813541A1F49AC0006AE2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A5813561A1F49AC0006AE2C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3A58135C1A1F49AC0006AE2C /* Sofia2iOSExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sofia2iOSExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5813641A1F49AC0006AE2C /* Sofia2iOSExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sofia2iOSExampleTests-Info.plist"; sourceTree = "<group>"; };
+		3A5813661A1F49AC0006AE2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A5813681A1F49AC0006AE2C /* Sofia2iOSExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sofia2iOSExampleTests.m; sourceTree = "<group>"; };
+		3A5813701A1F86920006AE2C /* SSAPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAPMessage.h; sourceTree = "<group>"; };
+		3A5813711A1F86920006AE2C /* SSAPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAPMessage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A5813021A1F45020006AE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5813331A1F45620006AE2C /* libicucore.dylib in Frameworks */,
+				3A5813311A1F45540006AE2C /* CFNetwork.framework in Frameworks */,
+				3A58132F1A1F454C0006AE2C /* Security.framework in Frameworks */,
+				3A5813091A1F45020006AE2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5813121A1F45020006AE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5813171A1F45020006AE2C /* XCTest.framework in Frameworks */,
+				3A5813181A1F45020006AE2C /* Foundation.framework in Frameworks */,
+				3A58131D1A1F45020006AE2C /* libSofia2iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A58133B1A1F49AC0006AE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADF3EF11A2352250061DD6E /* Security.framework in Frameworks */,
+				3ADF3EF01A23521D0061DD6E /* CFNetwork.framework in Frameworks */,
+				3ADF3EEF1A2352130061DD6E /* libicucore.dylib in Frameworks */,
+				3A5813411A1F49AC0006AE2C /* CoreGraphics.framework in Frameworks */,
+				3A5813431A1F49AC0006AE2C /* UIKit.framework in Frameworks */,
+				3A58133F1A1F49AC0006AE2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5813591A1F49AC0006AE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A58135D1A1F49AC0006AE2C /* XCTest.framework in Frameworks */,
+				3A58135F1A1F49AC0006AE2C /* UIKit.framework in Frameworks */,
+				3A58135E1A1F49AC0006AE2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A5812FC1A1F45020006AE2C = {
+			isa = PBXGroup;
+			children = (
+				3A58130A1A1F45020006AE2C /* Sofia2iOS */,
+				3A5813441A1F49AC0006AE2C /* Sofia2iOSExample */,
+				3A5813071A1F45020006AE2C /* Frameworks */,
+				3A58131E1A1F45020006AE2C /* Sofia2iOSTests */,
+				3A5813621A1F49AC0006AE2C /* Sofia2iOSExampleTests */,
+				3A5813061A1F45020006AE2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A5813061A1F45020006AE2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A5813051A1F45020006AE2C /* libSofia2iOS.a */,
+				3A5813151A1F45020006AE2C /* Sofia2iOSTests.xctest */,
+				3A58133E1A1F49AC0006AE2C /* Sofia2iOSExample.app */,
+				3A58135C1A1F49AC0006AE2C /* Sofia2iOSExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A5813071A1F45020006AE2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A5813321A1F45620006AE2C /* libicucore.dylib */,
+				3A5813301A1F45540006AE2C /* CFNetwork.framework */,
+				3A58132E1A1F454C0006AE2C /* Security.framework */,
+				3A5813081A1F45020006AE2C /* Foundation.framework */,
+				3A5813161A1F45020006AE2C /* XCTest.framework */,
+				3A5813401A1F49AC0006AE2C /* CoreGraphics.framework */,
+				3A5813421A1F49AC0006AE2C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A58130A1A1F45020006AE2C /* Sofia2iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3A5813341A1F488B0006AE2C /* SocketRocket */,
+				3A58130D1A1F45020006AE2C /* Sofia2iOS.h */,
+				3A58130F1A1F45020006AE2C /* Sofia2iOS.m */,
+				3A5813701A1F86920006AE2C /* SSAPMessage.h */,
+				3A5813711A1F86920006AE2C /* SSAPMessage.m */,
+				3A58130B1A1F45020006AE2C /* Supporting Files */,
+			);
+			path = Sofia2iOS;
+			sourceTree = "<group>";
+		};
+		3A58130B1A1F45020006AE2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A58130C1A1F45020006AE2C /* Sofia2iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A58131E1A1F45020006AE2C /* Sofia2iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A5813241A1F45020006AE2C /* Sofia2iOSTests.m */,
+				3A58131F1A1F45020006AE2C /* Supporting Files */,
+			);
+			path = Sofia2iOSTests;
+			sourceTree = "<group>";
+		};
+		3A58131F1A1F45020006AE2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A5813201A1F45020006AE2C /* Sofia2iOSTests-Info.plist */,
+				3A5813211A1F45020006AE2C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A5813341A1F488B0006AE2C /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				3A5813371A1F49610006AE2C /* SRWebSocket.h */,
+				3A5813381A1F49610006AE2C /* SRWebSocket.m */,
+				3A5813351A1F48990006AE2C /* Supporting Files */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		3A5813351A1F48990006AE2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A5813361A1F49500006AE2C /* SocketRocket-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A5813441A1F49AC0006AE2C /* Sofia2iOSExample */ = {
+			isa = PBXGroup;
+			children = (
+				3A58134D1A1F49AC0006AE2C /* AppDelegate.h */,
+				3A58134E1A1F49AC0006AE2C /* AppDelegate.m */,
+				3A5813501A1F49AC0006AE2C /* Main.storyboard */,
+				3A5813531A1F49AC0006AE2C /* ViewController.h */,
+				3A5813541A1F49AC0006AE2C /* ViewController.m */,
+				3A5813561A1F49AC0006AE2C /* Images.xcassets */,
+				3A5813451A1F49AC0006AE2C /* Supporting Files */,
+			);
+			path = Sofia2iOSExample;
+			sourceTree = "<group>";
+		};
+		3A5813451A1F49AC0006AE2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A5813461A1F49AC0006AE2C /* Sofia2iOSExample-Info.plist */,
+				3A5813471A1F49AC0006AE2C /* InfoPlist.strings */,
+				3A58134A1A1F49AC0006AE2C /* main.m */,
+				3A58134C1A1F49AC0006AE2C /* Sofia2iOSExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A5813621A1F49AC0006AE2C /* Sofia2iOSExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A5813681A1F49AC0006AE2C /* Sofia2iOSExampleTests.m */,
+				3A5813631A1F49AC0006AE2C /* Supporting Files */,
+			);
+			path = Sofia2iOSExampleTests;
+			sourceTree = "<group>";
+		};
+		3A5813631A1F49AC0006AE2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A5813641A1F49AC0006AE2C /* Sofia2iOSExampleTests-Info.plist */,
+				3A5813651A1F49AC0006AE2C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A5813041A1F45020006AE2C /* Sofia2iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A5813281A1F45020006AE2C /* Build configuration list for PBXNativeTarget "Sofia2iOS" */;
+			buildPhases = (
+				3A5813011A1F45020006AE2C /* Sources */,
+				3A5813021A1F45020006AE2C /* Frameworks */,
+				3A5813031A1F45020006AE2C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sofia2iOS;
+			productName = Sofia2iOS;
+			productReference = 3A5813051A1F45020006AE2C /* libSofia2iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3A5813141A1F45020006AE2C /* Sofia2iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A58132B1A1F45020006AE2C /* Build configuration list for PBXNativeTarget "Sofia2iOSTests" */;
+			buildPhases = (
+				3A5813111A1F45020006AE2C /* Sources */,
+				3A5813121A1F45020006AE2C /* Frameworks */,
+				3A5813131A1F45020006AE2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A58131C1A1F45020006AE2C /* PBXTargetDependency */,
+			);
+			name = Sofia2iOSTests;
+			productName = Sofia2iOSTests;
+			productReference = 3A5813151A1F45020006AE2C /* Sofia2iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A58133D1A1F49AC0006AE2C /* Sofia2iOSExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A58136A1A1F49AC0006AE2C /* Build configuration list for PBXNativeTarget "Sofia2iOSExample" */;
+			buildPhases = (
+				3A58133A1A1F49AC0006AE2C /* Sources */,
+				3A58133B1A1F49AC0006AE2C /* Frameworks */,
+				3A58133C1A1F49AC0006AE2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sofia2iOSExample;
+			productName = Sofia2iOSExample;
+			productReference = 3A58133E1A1F49AC0006AE2C /* Sofia2iOSExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A58135B1A1F49AC0006AE2C /* Sofia2iOSExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A58136D1A1F49AC0006AE2C /* Build configuration list for PBXNativeTarget "Sofia2iOSExampleTests" */;
+			buildPhases = (
+				3A5813581A1F49AC0006AE2C /* Sources */,
+				3A5813591A1F49AC0006AE2C /* Frameworks */,
+				3A58135A1A1F49AC0006AE2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A5813611A1F49AC0006AE2C /* PBXTargetDependency */,
+			);
+			name = Sofia2iOSExampleTests;
+			productName = Sofia2iOSExampleTests;
+			productReference = 3A58135C1A1F49AC0006AE2C /* Sofia2iOSExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A5812FD1A1F45020006AE2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Indra;
+				TargetAttributes = {
+					3A5813141A1F45020006AE2C = {
+						TestTargetID = 3A58133D1A1F49AC0006AE2C;
+					};
+					3A58135B1A1F49AC0006AE2C = {
+						TestTargetID = 3A58133D1A1F49AC0006AE2C;
+					};
+				};
+			};
+			buildConfigurationList = 3A5813001A1F45020006AE2C /* Build configuration list for PBXProject "Sofia2iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A5812FC1A1F45020006AE2C;
+			productRefGroup = 3A5813061A1F45020006AE2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A5813041A1F45020006AE2C /* Sofia2iOS */,
+				3A5813141A1F45020006AE2C /* Sofia2iOSTests */,
+				3A58133D1A1F49AC0006AE2C /* Sofia2iOSExample */,
+				3A58135B1A1F49AC0006AE2C /* Sofia2iOSExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A5813131A1F45020006AE2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5813231A1F45020006AE2C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A58133C1A1F49AC0006AE2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5813571A1F49AC0006AE2C /* Images.xcassets in Resources */,
+				3A5813491A1F49AC0006AE2C /* InfoPlist.strings in Resources */,
+				3A5813521A1F49AC0006AE2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A58135A1A1F49AC0006AE2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5813671A1F49AC0006AE2C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A5813011A1F45020006AE2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5813391A1F49610006AE2C /* SRWebSocket.m in Sources */,
+				3A5813101A1F45020006AE2C /* Sofia2iOS.m in Sources */,
+				3A5813721A1F86920006AE2C /* SSAPMessage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5813111A1F45020006AE2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5813251A1F45020006AE2C /* Sofia2iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A58133A1A1F49AC0006AE2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADF3EF51A2352A20061DD6E /* SRWebSocket.m in Sources */,
+				3ADF3EF31A2352770061DD6E /* Sofia2iOS.m in Sources */,
+				3ADF3EF41A2352770061DD6E /* SSAPMessage.m in Sources */,
+				3A5813551A1F49AC0006AE2C /* ViewController.m in Sources */,
+				3A58134F1A1F49AC0006AE2C /* AppDelegate.m in Sources */,
+				3A58134B1A1F49AC0006AE2C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5813581A1F49AC0006AE2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5813691A1F49AC0006AE2C /* Sofia2iOSExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A58131C1A1F45020006AE2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A5813041A1F45020006AE2C /* Sofia2iOS */;
+			targetProxy = 3A58131B1A1F45020006AE2C /* PBXContainerItemProxy */;
+		};
+		3A5813611A1F49AC0006AE2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A58133D1A1F49AC0006AE2C /* Sofia2iOSExample */;
+			targetProxy = 3A5813601A1F49AC0006AE2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A5813211A1F45020006AE2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A5813221A1F45020006AE2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A5813471A1F49AC0006AE2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A5813481A1F49AC0006AE2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A5813501A1F49AC0006AE2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A5813511A1F49AC0006AE2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A5813651A1F49AC0006AE2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A5813661A1F49AC0006AE2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A5813261A1F45020006AE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A5813271A1F45020006AE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A5813291A1F45020006AE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Sofia2iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sofia2iOS/Sofia2iOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3A58132A1A1F45020006AE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Sofia2iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sofia2iOS/Sofia2iOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3A58132C1A1F45020006AE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sofia2iOSExample.app/Sofia2iOSExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sofia2iOS/Sofia2iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sofia2iOSTests/Sofia2iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3A58132D1A1F45020006AE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sofia2iOSExample.app/Sofia2iOSExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sofia2iOS/Sofia2iOS-Prefix.pch";
+				INFOPLIST_FILE = "Sofia2iOSTests/Sofia2iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		3A58136B1A1F49AC0006AE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sofia2iOSExample/Sofia2iOSExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sofia2iOSExample/Sofia2iOSExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A58136C1A1F49AC0006AE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sofia2iOSExample/Sofia2iOSExample-Prefix.pch";
+				INFOPLIST_FILE = "Sofia2iOSExample/Sofia2iOSExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3A58136E1A1F49AC0006AE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sofia2iOSExample.app/Sofia2iOSExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sofia2iOSExample/Sofia2iOSExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sofia2iOSExampleTests/Sofia2iOSExampleTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3A58136F1A1F49AC0006AE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sofia2iOSExample.app/Sofia2iOSExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sofia2iOSExample/Sofia2iOSExample-Prefix.pch";
+				INFOPLIST_FILE = "Sofia2iOSExampleTests/Sofia2iOSExampleTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A5813001A1F45020006AE2C /* Build configuration list for PBXProject "Sofia2iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A5813261A1F45020006AE2C /* Debug */,
+				3A5813271A1F45020006AE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A5813281A1F45020006AE2C /* Build configuration list for PBXNativeTarget "Sofia2iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A5813291A1F45020006AE2C /* Debug */,
+				3A58132A1A1F45020006AE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A58132B1A1F45020006AE2C /* Build configuration list for PBXNativeTarget "Sofia2iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A58132C1A1F45020006AE2C /* Debug */,
+				3A58132D1A1F45020006AE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A58136A1A1F49AC0006AE2C /* Build configuration list for PBXNativeTarget "Sofia2iOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A58136B1A1F49AC0006AE2C /* Debug */,
+				3A58136C1A1F49AC0006AE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A58136D1A1F49AC0006AE2C /* Build configuration list for PBXNativeTarget "Sofia2iOSExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A58136E1A1F49AC0006AE2C /* Debug */,
+				3A58136F1A1F49AC0006AE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A5812FD1A1F45020006AE2C /* Project object */;
+}
